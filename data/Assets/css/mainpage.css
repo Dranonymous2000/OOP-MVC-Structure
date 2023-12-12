@@ -1,0 +1,33 @@
+*{
+    padding:0%;
+    margin:0%;
+   box-sizing:border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+     
+
+}
+body{
+	max-width:100%;
+	 height: 100vh;
+	 color: white;
+  
+}
+.frameone{
+    max-width:100%;
+    height: 15%;
+    background: linear-gradient(135deg, #153677,#4e085f);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+}
+.dp{
+    width: 100px;
+    height: 100px;
+    margin: 25px 20px 0px 35px;
+    border-radius: 50%;
+}
+.test{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
