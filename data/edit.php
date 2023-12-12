@@ -37,20 +37,7 @@ $user = $userr->get_user_detail($id);
                 </div>
         </div>
     </div>
-    <!-- alert message for add department -->
-    <?php 
-if(isset($_SESSION["reg_error"])){
-    ?>
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-        <strong>Error!</strong> <?php echo $_SESSION["reg_error"];?>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-    <?php
-    unset($_SESSION["reg_error"]);
-}
-?>
-
-     <!-- alert for deleteing department -->
+ 
 
     <div class="row">
         <div class="col-lg-8 col-md-6 col-sm-12 px-5">

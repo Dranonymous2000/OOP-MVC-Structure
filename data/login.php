@@ -12,15 +12,15 @@
 <body>
     <div class="row">
         <div class="col-md-5 frameone">
-            <h2 class="text-center one"> PaySwift</h2>
-            <p class=" text-center two">We offer instant top up of Airtime, Data Bundle, Recharge Card,  </p> <p class="text-center">Cable TV Subscription,  Electricity Bills Payment,Puchase </p> <p class="text-center"> of WAEC and  NECO E-Pin  and lot more....</p>
+            <h2 class="text-center one"> LOGIN HERE</h2>
+            <p class=" text-center two">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore doloremque iure quam ipsam saepe recusandae cumque velit sint nesciunt molestias architecto ipsa, libero soluta officia eaque magnam dolorum. Accusamus, laborum.</p>
 
         </div>
         <div class="offset-md-1 col-md-5">
 
             <div id="reg2">
                 <form action="process/login_process.php" method="post" class="fill" >
-                    <h2 class="text-center">PaySwift</h2>
+                    <h2 class="text-center">Test Page</h2>
                     <p class="text-center" style="color: white;">Enter your Phone Number and password</p>
                     <label for="Username">Email</label>
                     <input type="text" name="email" class="form-control enter">
@@ -28,11 +28,12 @@
                     <input type="password" name="password" class="form-control enter">
                     <input type="submit"  class="btn btn-success form-control enter" name="login_submit" value="Log in">
 
-                    <a href="" class="forgetpass"> <p class="text-center" style="color: white;"> Forget your password?</p> </a>  
+                    
+                    <h6 class="text-center"> Dont have an account?<a href="index.php"> Sign Up</a> 
 
                 </form>
             </div>
-               <a href=""></a> <h6 class="text-center"> Dont have an account?<a href="index.html"> Sign Up</a>
+              
         </div>
     </div>
 <!-- Modal -->

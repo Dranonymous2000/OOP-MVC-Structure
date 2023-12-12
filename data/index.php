@@ -12,14 +12,15 @@
 <body>
     <div class="row">
         <div class="col-md-5 frameone">
-            <h2 class="text-center one"> PaySwift</h2>
-            <p class=" text-center two">We offer instant top up of Airtime, Data Bundle, Recharge Card,  </p> <p class="text-center">Cable TV Subscription,  Electricity Bills Payment,Puchase </p> <p class="text-center"> of WAEC and  NECO E-Pin  and lot more....</p>
+            <h2 class="text-center one"> REGISTER HERE</h2>
+            <p class=" text-center two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae laborum necessitatibus blanditiis doloribus dolor nulla nam ipsa illo at, id invent</p>
 
         </div>
         <div class="offset-md-1 col-md-5">
 
             <div id="reg2">
                 <form action="Process/registration_process.php" method="post" class="filler" enctype="multipart/form-data">
+                   
                     <label for="Username">Name</label>
                     <input type="text" name="name" class="form-control" required>
                     <label for="Username">Phone Number</label>
@@ -34,10 +35,10 @@
                     <input type="file" name="upload"  class="form-control"required >
                     <label for="password"> Password</label>
                     <input type="password" name="password"  class="form-control mb-3 " required>
-                    <a href=""> <button type="submit" name="register" class="btn btn-success"> Register</button></a>
+                    <a href=""> <button type="submit" name="register" class="btn btn-success"> Register</button></a> Already Have an Account?<a href="login.php"> Sign In</a>
                 </form>
             </div>
-            <a href=""></a> <h6 class="text-center"> Already Have an Account?<a href="login.html"> Sign In</a>
+          
         </div>
     </div>
 <!-- Modal -->
